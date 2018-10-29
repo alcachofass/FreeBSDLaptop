@@ -11,7 +11,7 @@
 
 # Wallpaper section
 ######### uncomment this line once you have a Wallpaper.jpg file and feh installed
-# exec --no-startup-id feh --bg-fill ~/Downloads/wallpaper.jpg
+exec --no-startup-id feh --bg-fill ~/Downloads/wallpaper.jpg
 
 set $mod Mod4
 
