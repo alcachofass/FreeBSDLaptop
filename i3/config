@@ -135,8 +135,10 @@ bindsym $mod+Shift+r mode "resize"
 bindsym $mod+b border toggle
 
 # audio controls
-bindsym XF86AudioRaiseVolume exec mixer vol +10
-bindsym XF86AudioLowerVolume exec mixer vol -10
+bindsym XF86AudioRaiseVolume exec mixer vol=+10%
+bindsym XF86AudioLowerVolume exec mixer vol=-10%
+bindsym $mod+Page_Up exec mixer vol=+5%
+bindsym $mod+Page_Down exec mixer vol=-5%
 
 
 
